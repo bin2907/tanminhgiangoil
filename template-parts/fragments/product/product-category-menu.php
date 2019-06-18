@@ -36,7 +36,7 @@
         <a class="block readMoreLink" href="<?php echo get_home_url(); ?>/services">Read more <i class="fa fa-arrow-right"></i></a>
     </div>
 
-    <div class="sideBarConsultant">
+    <div class="sideBarConsultant sideBarConsultantBg">
         <h4>NEED HELP?</h4>
         <a class="sideBarConsultantLink"
            href="https://www.google.com/maps/place/C%C3%B4ng+Ty+CP+Thi%E1%BA%BFt+B%E1%BB%8B+T%C3%A2n+Minh+Giang/@10.8022892,106.6524534,19.75z/data=!4m13!1m7!3m6!1s0x3175293093be89e7:0x644023188aa7f7c7!2zMjAgQ-G7mW5nIEjDsmEsIFBoxrDhu51uZyA0LCBUw6JuIELDrG5oLCBI4buTIENow60gTWluaA!3b1!8m2!3d10.8010975!4d106.6605627!3m4!1s0x317529476335892b:0x94735560b935388d!8m2!3d10.8026808!4d106.6524243" target="_blank">

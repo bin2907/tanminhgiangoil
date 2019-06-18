@@ -10,7 +10,7 @@ get_header();
 $queried_object = get_queried_object();
 $category_name = $queried_object->cat_name;
 
-$query = new WP_Query( array( 'category__in' => get_queried_object_id() ) );
+//$query = new WP_Query( array( 'category__in' => get_queried_object_id() ) );
 
 ?>
 
@@ -38,7 +38,9 @@ $query = new WP_Query( array( 'category__in' => get_queried_object_id() ) );
             </div>
             <div class="col-md-9">
                 <div class="row">
-                    <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+                    <?php /*while ( $query->have_posts() ) : $query->the_post();*/
+                        while ( have_posts() ) : the_post();
+                     ?>
                         <?php get_template_part( 'template-parts/fragments/product/product', 'item'); ?>
                     <?php endwhile; ?>
                 </div>

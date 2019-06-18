@@ -13,6 +13,12 @@
 
 <script src="https://kit.fontawesome.com/bdbf254905.js"></script>
 
+<style type="text/css">
+    .sideBarConsultantBg {
+        background-image: url("<?php echo get_template_directory_uri(); ?>/img/misc/consultant.jpg") ;
+    }
+</style>
+
 <?php
 	wp_head();
 	$slug = $post->post_name;
