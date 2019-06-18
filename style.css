@@ -1,0 +1,376 @@
+/*
+Theme Name: Tan Minh Giang Oil
+Theme URI: http://tanminhgiangoil.com
+Author: Viloq
+Author URI: http://viloq.com
+Description: This theme is used for website tanminhgiangoil.com. Theme supports viewing on desktop, tablet and mobile.
+Requires at least: WordPress 5.2
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: globaltechsgl
+Tags: globaltechsgl
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Global Tech SGL is based on Underscores https://underscores.me/, (C) 2012-2018 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* 1. Basic */
+a:hover {
+    text-decoration: none;
+}
+
+.block {
+    display: block;
+}
+.highlightLink {
+    color: #f9520b;
+}
+.secondTextColor {
+    color: #7a7b7e;
+}
+
+.shareSocialIcon {
+    font-size: 1.5rem;
+    color: #75c6e6;
+}
+
+.shareSocialIcon:hover {
+    color: #f9520b;
+    cursor: pointer;
+}
+
+/* 2. Main classes */
+.mainColor {
+    color: #f9520b;
+}
+
+.mainSecondColor {
+    color: #f9520b;
+}
+
+.secondColor {
+    color: #272727;
+}
+
+.thirdColor {
+    color: #848484;
+}
+
+.fourthColor {
+    color: #9e9e9e;
+}
+
+/* 3. Top bar*/
+.topbar {
+    background-color: #04192b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topbarIcon {
+    color: #f9520b;
+}
+.topbarText {
+    color: rgba(255, 255, 255, 0.702);
+}
+.topbarText:hover{
+    color: #f9520b;
+}
+
+/* 4. Lang menu */
+.menu-languages-container{}
+.menu-languages-container li{
+    display: inline-block;
+}
+
+/* 4. Navigation */
+.navbar {
+    background-color: #ffffff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    margin: 0.8rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #18152c;
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .active .nav-link{
+    color: #f9520b;
+    border-bottom: 2px solid #f9520b;
+}
+
+/* 5. Breadcrumbs */
+.breadcrumbs {
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e2e2e5;
+    margin-bottom: 4rem;
+}
+
+.breadcrumbs .shareSocialIcon {
+    padding-left: 1rem;
+}
+
+/* 6. Product category */
+.product-category {
+
+}
+
+.product-category a.nav-link {
+    background-color: #f1f1f1;
+    border-left: 4px solid #d2d2d2;
+    border-bottom: 1px solid #ffffff;
+    padding: 14px 15px 14px 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.product-category a.nav-link:hover, .product-category a.nav-link.active {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: 0.3s;
+    color: #fff;
+}
+
+/* 7. Footer */
+.footer {
+    background-color: #04192b;
+    color: #c8c8c8;
+}
+.footerTop {
+    padding: 50px 0 30px 0;
+}
+.footerBottom {
+    padding: 20px 0;
+}
+
+.footerHeader {
+    color: #f9520b;
+}
+.footerListItem {
+    list-style-type: circle;
+}
+.footerSeparation {
+    border-top: 1px solid #0a253d;
+}
+.footerLink {
+    color: #c8c8c8;
+}
+.footerLink:hover {
+    color: #f9520b;
+}
+
+/* Post */
+.postList {
+    margin-bottom: 4rem;
+}
+.postTitleLine {
+    padding: 30px 0;
+}
+.postTitle {
+    font-size: 1.5rem;
+}
+
+.postItemCol {
+    margin-bottom: 1rem;
+}
+
+.postItem {
+    border: 1px solid #f7f7f7;
+    height: 100%;
+    box-shadow: 0 0 15px 0 #f7f7f7;
+
+}
+
+.postItemTitle {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1em;
+    padding: .5rem .5rem;
+    margin-bottom: 0;
+}
+
+.postItem .imgWrp {
+    display: block;
+    text-align: center;
+    background-color: silver;
+    padding: .5rem;
+}
+
+.postItem img {
+    width: 150px;
+}
+
+.postItem img:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.postItemShortDesc {
+    color: #7a7b7e;
+    font-size: .9rem;
+    padding: 0.5rem;
+}
+
+.postItemReadMore {
+    font-size: 0.9rem;
+    border-top: 1px solid silver;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.postItemReadMore .shareSocialIcon {
+    font-size: 1rem;
+}
+
+.postItemSocalIcons {
+    float: right;
+}
+
+.postDetailDownloadIcon {
+    color: #75C6E6;
+}
+.postDetailDownloadText {
+    color: #7a7b7e;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.postDetailIcon {
+    font-size: 3rem;
+    color: #f9520b; padding:
+    1rem; border: 1px solid #f9520b;
+    border-radius: 50px
+}
+
+.postDetail {
+    padding: 1rem;
+    border: 1px solid #f7f7f7;
+    background-color: #CBEAF6;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 0 #CBEAF6;
+}
+
+.postDetailFeaturedImg {
+    width: 150px;
+}
+
+.relatedPosts {
+    padding: 4rem 0;
+}
+
+.relatedPostsText {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+/* Components */
+.mainBtn {
+    border: 1px solid #f9520b;
+    padding: 10px 40px;
+    background-color: #f9520b;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.mainBtn:hover {
+    background-color: #ffffff;
+    color: #f9520b;
+    border: 1px solid #f9520b;
+}
+
+.readMoreLink {
+    color: #f9520b;
+}
+
+
+/* Padding/Margin */
+.pdt30 {
+    padding-top: 30px;
+}
+
+.pdb30 {
+    padding-bottom: 30px;
+}
+
+.pdtb30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pdtb80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Misc */
+.sideBarService {
+    padding: 4rem 2rem;
+    margin: 4rem 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px silver;
+
+}
+
+.contactUsBtn {
+    border-radius: 50px;
+    margin-top: 4rem;
+    display: inline-block;
+}
+
+.sideBarConsultant {
+    padding: 4rem 2rem;
+    margin: 4rem 0;
+    background-image: url("/wp-content/themes/tanminhgiangoil/img/misc/consultant.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.sideBarConsultantLink {
+    color: #fff;
+    padding: 5px 0;
+    display: block;
+}
+.sideBarConsultantLink:hover {
+    color: #f9520b;
+}
+
+.contactUs {
+
+}
+.contactHeader {
+    font-size: 2rem;
+}
+.contactHeader:after {
+    width: 35px;
+    position: absolute;
+    height: 2px;
+    background: #f9520b;
+    content: '';
+    bottom: 8px;
+    margin-left: 14px;
+}
+.contactUsIcon {
+    color: #f9520b;
+    border: 1px solid #f9520b;
+    border-radius: 50px;
+    margin-right: 25px;
+    padding: 13px;
+}
+.contactUsAddIcon {
+    padding: 13px 15px;
+}
+.contactUsLink {
+    padding: 21px 20px 21px 0;
+    margin-left: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.contactUsLinkTop {
+    border-top: 1px solid #e5e5e5;
+}
