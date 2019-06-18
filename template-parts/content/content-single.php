@@ -22,22 +22,22 @@ if (empty($safety_data_sheet)) {
 
 $classifications =  get_post_meta($post->ID, 'classifications', true);
 if (empty($classifications)) {
-    $classifications = "Updating";
+    $classifications = "";
 }
 
 $requirements =  get_post_meta($post->ID, 'requirements', true);
 if (empty($requirements)) {
-    $requirements = "All";
+    $requirements = "";
 }
 
 $approved =  get_post_meta($post->ID, 'approved', true);
 if (empty($approved)) {
-    $approved = "All";
+    $approved = "";
 }
 
 $suitable =  get_post_meta($post->ID, 'suitable', true);
 if (empty($suitable)) {
-    $suitable = "All";
+    $suitable = "";
 }
 
 
