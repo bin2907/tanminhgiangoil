@@ -28,11 +28,14 @@
 <body>
 
 <?php
+get_header();
 
 if (get_locale() == "vi") {
-
+    get_template_part( 'template-parts/vi/top-bar');
+    get_template_part( 'template-parts/vi/navigation');
+} else {
+    get_template_part( 'template-parts/top-bar');
+    get_template_part( 'template-parts/navigation');
 }
 
-
-get_template_part( 'template-parts/top-bar'); ?>
-<?php get_template_part( 'template-parts/navigation'); ?>
+?>

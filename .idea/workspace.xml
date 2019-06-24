@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="effdb06d-af75-41a6-8183-f37e89f754d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/about-us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/contact-us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/content/content-single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu-mobile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/fragments/product/product-item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/fragments/product/product-related-item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/fragments/product/product-related.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/vi/top-bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a2cc953a003d4890598e0061c63631c2d745703" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/9369a954e8bc29aabe57e7271f6ef7cc92c33499" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tanminhgiangoil.zip" beforeDir="false" afterPath="$PROJECT_DIR$/tanminhgiangoil.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/contact-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/customers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/fragments/product/product-category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/fragments/product/product-item.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/fragments/product/product-item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/fragments/product/product-related-item.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/fragments/product/product-related-item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/fragments/product/product-related.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/fragments/product/product-related.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/fragments/story.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/top-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/top-bar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,90 +41,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="139">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="223">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="326" selection-start-line="326" selection-end-line="333" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/category.php">
+        <entry file="file://$PROJECT_DIR$/template-parts/top-bar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
-              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <caret line="38" column="18" selection-start-line="18" selection-start-column="16" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php">
+        <entry file="file://$PROJECT_DIR$/template-parts/vi/top-bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" column="53" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="53" />
+            <state relative-caret-position="306">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/slide.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="43" column="68" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="68" />
-              <folding>
-                <element signature="e#6#104#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/content/content-single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="47" />
+            <state relative-caret-position="119">
+              <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions.php">
+        <entry file="file://$PROJECT_DIR$/template-parts/vi/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="61" />
+            <state relative-caret-position="353">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-item.php">
+        <entry file="file://$PROJECT_DIR$/template-parts/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="67" />
+              <folding>
+                <element signature="e#6#103#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,12 +94,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sticky-top</find>
-      <find>product-category</find>
-      <find>relatedPostsText</find>
-      <find>postSocialIcon</find>
       <find>url</find>
-      <find>mainBtn</find>
       <find>sideBarConsultantLink</find>
       <find>footer</find>
       <find>icon</find>
@@ -133,6 +119,11 @@
       <find>postDetailFeaturedImg</find>
       <find>.postItem img</find>
       <find>sideBarConsultant</find>
+      <find>background-</find>
+      <find>mainBtn</find>
+      <find>box-shadow</find>
+      <find>forthBtn</find>
+      <find>MethodNotSupportException</find>
     </findStrings>
     <replaceStrings>
       <replace>tanminhgiangoil.com</replace>
@@ -150,14 +141,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/template-parts/slide.php" />
         <option value="$PROJECT_DIR$/template-parts/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/template-parts/products.php" />
-        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-related-item.php" />
         <option value="$PROJECT_DIR$/template-parts/services.php" />
-        <option value="$PROJECT_DIR$/template-parts/about-us.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/template-parts/navigation_en.php" />
         <option value="$PROJECT_DIR$/template-parts/top-bar_en.php" />
@@ -166,18 +154,34 @@
         <option value="$PROJECT_DIR$/header-en.php" />
         <option value="$PROJECT_DIR$/footer-en.php" />
         <option value="$PROJECT_DIR$/template-parts/navigation.php" />
-        <option value="$PROJECT_DIR$/template-parts/top-bar.php" />
-        <option value="$PROJECT_DIR$/template-parts/contact-us.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/template-parts/fragments/product/product-category-menu-mobile.php" />
-        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-related.php" />
-        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-item.php" />
-        <option value="$PROJECT_DIR$/template-parts/content/content-single.php" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/category.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/template-parts/content/content-single.php" />
+        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-related.php" />
+        <option value="$PROJECT_DIR$/template-parts/slide.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/template-parts/top-bar-vi.php" />
+        <option value="$PROJECT_DIR$/template-parts/navigation-vi.php" />
+        <option value="$PROJECT_DIR$/template-parts/footer-vi.php" />
+        <option value="$PROJECT_DIR$/template-parts/footer-en.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/content/content-single.php" />
+        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php" />
+        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-item.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/fragments/product/product-item.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/fragments/product/product-related-item.php" />
+        <option value="$PROJECT_DIR$/template-parts/fragments/product/product-related-item.php" />
+        <option value="$PROJECT_DIR$/category.php" />
+        <option value="$PROJECT_DIR$/template-parts/about-us.php" />
+        <option value="$PROJECT_DIR$/template-parts/contact-us.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/contact-us.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/about-us.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu-mobile.php" />
+        <option value="$PROJECT_DIR$/template-parts/top-bar.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/top-bar.php" />
+        <option value="$PROJECT_DIR$/template-parts/vi/footer.php" />
       </list>
     </option>
   </component>
@@ -196,8 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,24 +212,31 @@
             <path>
               <item name="tanminhgiangoil" type="b2602c69:ProjectViewProjectNode" />
               <item name="tanminhgiangoil" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tanminhgiangoil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tanminhgiangoil" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanminhgiangoil" type="b2602c69:ProjectViewProjectNode" />
               <item name="tanminhgiangoil" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanminhgiangoil" type="b2602c69:ProjectViewProjectNode" />
               <item name="tanminhgiangoil" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanminhgiangoil" type="b2602c69:ProjectViewProjectNode" />
               <item name="tanminhgiangoil" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -238,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560895656130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561321357705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,16 +260,17 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts" />
-      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\fragments" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\fragments" />
+      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\vi" />
       <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts" />
+      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\img\misc" />
+      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\fragments" />
       <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil" />
-      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\fragments\product" />
-      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\img\slide" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\vi" />
+      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts" />
+      <recent name="D:\MyDocs\viloq\projects\tanminhgiangoil\template-parts\fragments" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,12 +341,15 @@
       <workItem from="1560790920969" duration="7364000" />
       <workItem from="1560822861841" duration="373000" />
       <workItem from="1560857266500" duration="15226000" />
-      <workItem from="1560888725464" duration="6760000" />
+      <workItem from="1560888725464" duration="7166000" />
+      <workItem from="1560916383000" duration="785000" />
+      <workItem from="1561178223541" duration="19117000" />
+      <workItem from="1561344323389" duration="2957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92712000" />
+    <option name="totallyTimeSpent" value="115977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -374,7 +389,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" show_stripe_button="false" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5187266" side_tool="true" weight="0.37386668" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="9" sideWeight="0.4578714" visible="true" weight="0.2618546" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="9" sideWeight="0.4578714" visible="true" weight="0.37987354" />
       <window_info anchor="right" id="Structure" order="10" sideWeight="0.49223948" side_tool="true" weight="0.27713382" />
       <window_info anchor="right" id="Event Log" order="11" sideWeight="0.5421286" side_tool="true" weight="0.3184" />
       <window_info anchor="right" id="Gradle" order="12" weight="0.329294" />
@@ -428,22 +443,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/main-bg-img.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/service/repair.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/service/assemble.jpg" />
     <entry file="file://$PROJECT_DIR$/img/slide/tang-minh-giang-oil-slide-1.jpg" />
     <entry file="file://$PROJECT_DIR$/img/logo/tang-minh-giang-oil-logo-2.jpg" />
     <entry file="file://$PROJECT_DIR$/img/logo/tang-minh-giang-oil-logo.jpg" />
     <entry file="file://$PROJECT_DIR$/img/misc/tan-minh-giang-oil-chung-nhan.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-category.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/breadcrumbs.php" />
-    <entry file="file://$PROJECT_DIR$/content.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -478,17 +484,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/products.php" />
-    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-related-item.php">
+    <entry file="file://$PROJECT_DIR$/header-en.php" />
+    <entry file="file://$PROJECT_DIR$/footer-en.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/top-bar-en.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/navigation-en.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/home.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/fragments/top-bar-vi.php" />
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/about-us.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-related.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="374">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -499,56 +511,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/customers.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/slide.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="492">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="109" />
           <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
+            <element signature="e#6#104#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header-en.php" />
-    <entry file="file://$PROJECT_DIR$/footer-en.php" />
-    <entry file="file://$PROJECT_DIR$/template-parts/top-bar-en.php" />
-    <entry file="file://$PROJECT_DIR$/template-parts/navigation-en.php" />
-    <entry file="file://$PROJECT_DIR$/template-parts/home.php" />
-    <entry file="file://$PROJECT_DIR$/template-parts/navigation.php">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="94" />
-          <folding>
-            <element signature="e#6#103#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="283">
+          <caret line="315" column="9" selection-start-line="315" selection-start-column="1" selection-end-line="315" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/contact-us.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="578">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/fragments/story.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/fragments/top-bar-vi.php" />
-    <entry file="file://$PROJECT_DIR$/template-parts/top-bar.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/content/content-single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="e#6#100#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -559,34 +556,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-related.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/fragments/story.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/story.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/content/content-single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="299">
+          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-category.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-category.php" />
+    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-related.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="326" selection-start-line="326" selection-end-line="333" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-category-menu.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-related-item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="53" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="53" />
+        <state relative-caret-position="340">
+          <caret line="26" column="14" selection-start-line="23" selection-start-column="12" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/fragments/product/product-related-item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="14" selection-start-line="22" selection-start-column="12" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/customers.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -597,41 +633,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/slide.php">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="43" column="68" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="68" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <element signature="e#6#104#0#PHP" expanded="true" />
+            <element signature="e#6#101#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/category.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu-mobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="133" selection-start-line="19" selection-start-column="133" selection-end-line="19" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/top-bar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <caret line="38" column="18" selection-start-line="18" selection-start-column="16" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/content/content-single.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/top-bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="47" />
+        <state relative-caret-position="306">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/fragments/product/product-category-menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="61" />
+        <state relative-caret-position="119">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="e#6#103#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/vi/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>

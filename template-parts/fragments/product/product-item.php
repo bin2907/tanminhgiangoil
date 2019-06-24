@@ -20,7 +20,10 @@
             </a>
         </h5>
         <div class="postItemShortDesc">
-            TRANSTEC 5 is a mineral based oil designed for the lubrication of all gear boxes and axles requiring an API GL-5 level and a viscosity of SAE 80W-90.
+            <?php
+                $shortText = get_the_excerpt();
+                echo substr($shortText,0,100);
+            ?>
         </div>
         <div class="postItemReadMore">
             <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">

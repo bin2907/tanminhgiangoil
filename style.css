@@ -29,6 +29,9 @@ a:hover {
 .highlightLink {
     color: #f9520b;
 }
+.highlightColor {
+    color: #75c6e6;
+}
 .secondTextColor {
     color: #7a7b7e;
 }
@@ -285,10 +288,45 @@ a:hover {
     border: 1px solid #f9520b;
 }
 
+.secondBtn {
+    border: 1px solid #75c6e6;
+    padding: 10px 40px;
+    background-color: #75c6e6;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.secondBtn:hover {
+    background-color: #ffffff;
+    color: #75c6e6;
+    border: 1px solid #75c6e6;
+}
+
+.thirdBtn {
+    border: 1px solid #f9520b;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.thirdBtn:hover {
+    color: #f9520b;
+    box-shadow: 0px 0px 15px 0px #75c6e6;
+}
+
+.forthBtn {
+    border: 1px solid #75c6e6;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.forthBtn:hover {
+    color: #75c6e6;
+    box-shadow: 0px 0px 15px 0px #75c6e6;
+}
+
 .readMoreLink {
     color: #f9520b;
 }
-
 
 /* Padding/Margin */
 .pdt30 {

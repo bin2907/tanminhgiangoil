@@ -10,7 +10,16 @@ get_header();
 $queried_object = get_queried_object();
 $category_name = $queried_object->cat_name;
 
-//$query = new WP_Query( array( 'category__in' => get_queried_object_id() ) );
+$query = new WP_Query( array( 'category__in' => get_queried_object_id() ) );
+
+$langFolder = "template-parts/fragments/product/product";
+$homeText = "Tan Minh Giang Oil";
+
+if (get_locale() == "vi") {
+    $langFolder = "template-parts/vi/fragments/product/product";
+    $homeText = "Tân Minh Giang Oil";
+
+}
 
 ?>
 
@@ -18,7 +27,7 @@ $category_name = $queried_object->cat_name;
     <div class="container">
         <div class="row">
             <div class="col-md-10">
-                <a href="<?php echo get_home_url(); ?>">Tân Minh Giang Oil</a>
+                <a href="<?php echo get_home_url(); ?>"><?php echo $homeText; ?></a>
                 &gt;
                 <?php echo $category_name; ?>
             </div>
@@ -34,14 +43,13 @@ $category_name = $queried_object->cat_name;
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <?php get_template_part( 'template-parts/fragments/product/product', 'category-menu'); ?>
+                <?php get_template_part( $langFolder, 'category-menu'); ?>
             </div>
             <div class="col-md-9">
                 <div class="row">
-                    <?php /*while ( $query->have_posts() ) : $query->the_post();*/
-                        while ( have_posts() ) : the_post();
+                    <?php while ( $query->have_posts() ) : $query->the_post();
                      ?>
-                        <?php get_template_part( 'template-parts/fragments/product/product', 'item'); ?>
+                        <?php get_template_part( $langFolder, 'item'); ?>
                     <?php endwhile; ?>
                 </div>
             </div>
@@ -49,7 +57,7 @@ $category_name = $queried_object->cat_name;
     </div>
 </div>
 
-<?php get_template_part( 'template-parts/fragments/product/product', 'category-menu-mobile'); ?>
+<?php get_template_part( $langFolder, 'category-menu-mobile'); ?>
 
 <?php
 get_footer();

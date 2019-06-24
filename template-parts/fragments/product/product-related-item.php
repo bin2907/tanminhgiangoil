@@ -8,15 +8,33 @@
  */
 ?>
 
-<div class="col-md-3 postItem">
-    <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-        <img title="<?php the_title_attribute(); ?>" alt="thumb image" class="wp-post-image"
-             src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
-    </a>
-    <h5 style="font-size: 1.5em; font-weight: 400; line-height: 1em; padding:  0.4em 0 1em 0;"
-        class="text-center">
-        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-            <?php the_title(); ?>
+
+<div class="col-md-3 postItemCol">
+    <div class="postItem">
+        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="imgWrp">
+            <img title="<?php the_title_attribute(); ?>" alt="thumb image" class="wp-post-image"
+                 src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>">
         </a>
-    </h5>
+        <h5 class="postItemTitle">
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                <?php the_title(); ?>
+            </a>
+        </h5>
+        <div class="postItemShortDesc">
+            <?php
+                $shortText = get_the_excerpt();
+                echo substr($shortText,0,100);
+            ?>
+        </div>
+        <div class="postItemReadMore">
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                <i class="shareSocialIcon fas fa-arrow-circle-right"></i> Read more
+            </a>
+
+            <div class="postItemSocalIcons">
+                <i class="shareSocialIcon fab fa-facebook"></i>
+                <i class="shareSocialIcon fas fa-share-alt"></i>
+            </div>
+        </div>
+    </div>
 </div>
