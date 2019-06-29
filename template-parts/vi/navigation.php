@@ -30,14 +30,14 @@ get_header();
                     <a class="nav-link" href="<?php echo get_home_url(); ?>/dich-vu">DỊCH VỤ</a>
                 </li>
                 <li class="nav-item <?php if ($slug == 'products') { echo 'active'; } ?> ">
-                    <a class="nav-link" href="<?php echo get_home_url(); ?>/san-pham">SẢN PHẨM</a>
+                    <a class="nav-link" href="<?php echo get_home_url(); ?>/o-to">SẢN PHẨM</a>
                 </li>
                 <li class="nav-item <?php if ($slug == 'contact-us') { echo 'active'; } ?> ">
                     <a class="nav-link" href="<?php echo get_home_url(); ?>/lien-he">LIÊN HỆ</a>
                 </li>
             </ul>
             <div>
-                <a href="<?php echo get_home_url(); ?>" class="mainBtn">Báo Giá</a>
+                <a href="tel:0919830044" class="mainBtn" style='padding: 10px'>Hotline: 0919 830 044</a>
             </div>
         </div>
     </div>

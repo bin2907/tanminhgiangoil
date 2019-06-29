@@ -14,11 +14,9 @@ $query = new WP_Query( array( 'category__in' => get_queried_object_id() ) );
 
 $langFolder = "template-parts/fragments/product/product";
 $homeText = "Tan Minh Giang Oil";
-
 if (get_locale() == "vi") {
     $langFolder = "template-parts/vi/fragments/product/product";
     $homeText = "Tân Minh Giang Oil";
-
 }
 
 ?>

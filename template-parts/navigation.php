@@ -20,7 +20,6 @@ get_header();
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item <?php if ($slug == 'about-us') { echo 'active'; } ?> ">
@@ -30,14 +29,14 @@ get_header();
                     <a class="nav-link" href="<?php echo get_home_url(); ?>/services">SERVICES</a>
                 </li>
                 <li class="nav-item <?php if ($slug == 'products') { echo 'active'; } ?> ">
-                    <a class="nav-link" href="<?php echo get_home_url(); ?>/products">PRODUCTS</a>
+                    <a class="nav-link" href="<?php echo get_home_url(); ?>/cars">PRODUCTS</a>
                 </li>
                 <li class="nav-item <?php if ($slug == 'contact-us') { echo 'active'; } ?> ">
                     <a class="nav-link" href="<?php echo get_home_url(); ?>/contact-us">CONTACT US</a>
                 </li>
             </ul>
             <div>
-                <a href="<?php echo get_home_url(); ?>" class="mainBtn">Get Quote</a>
+                <a href="tel:0919830044" class="mainBtn" style='padding: 10px'>Hotline: 0919 830 044</a>
             </div>
         </div>
     </div>

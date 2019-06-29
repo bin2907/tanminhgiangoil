@@ -7,35 +7,18 @@
                     20 Cộng Hòa, P.12, Tân Bình, HCM
                 </a>
             </div>
-            <div class="col-md-3 text-center">
-                <i class="fas fa-mobile topbarIcon"></i>
+            <div class="col-md-3">
+                <i class="fas fa-mobile-alt topbarIcon"></i>
                 <a class="topbarText" href="tel:02838118248">(028) 38 118 248</a>
             </div>
             <div class="col-md-3">
-                <i class="fas fa-mobile topbarIcon"></i>
-                <a class="topbarText" href="tel:02838118248">(028) 39 418 782</a>
+                <i class="far fa-envelope topbarIcon"></i>
+                <a class="topbarText" href="mailto:oil@tanminhgiang.com"  target="_top">oil@tanminhgiang.com</a>
             </div>
             <div class="col-md-2 text-right">
-                <a href="http://tanminhgiangoil.com/vi">
-                    <span data-no-translation="">
-                        <img class="trp-flag-image"
-                             src="data:image/webp;base64,UklGRsgAAABXRUJQVlA4TLsAAAAvEcACALfBuG0jR+6/xW1g9+5+OXitC00gaNs25g952x8DadukP/cv+fOf5FUcljsowfxHmZO44HL8WOqu6S3HWeY/7tgbV7iAlA5wBiWQALyUDhfwKxAgDwGBAgBJcBc8OAwAsGxq2+28mPP+f676IKL/E4B2JGIVuXZ0GdH/Kvo+xQJyas+p1Yw9xDP8GDumYfulnEMKJIbh1Q+MFv4yw3NvGi2k9zA/BMVnCblM7xcY8BKEBYJMoM0BAA=="
-                             alt="vi"
-                             title="Tiếng Việt">
-                    </span>
-                </a>
-
-                <a href="http://tanminhgiangoil.com" style="margin-left: 0.5rem">
-                    <span data-no-translation="">
-                        <img class="trp-flag-image"
-                             src="data:image/webp;base64,UklGRpABAABXRUJQVlA4TIQBAAAvEcACAL/iOJJtVXn33PcFdwiBgEiAlH3vtvru/580XEeybVrr7H1t+778A3hx+H0yAdvbcSTbSnXPxd2dPTmQfwwEADv97nLnPyiyxU+DrxAnHf4SXLXvH/4FpRYeBlXzls5vXvjw3JPE+zPF3R+zEi/R/cwfmR54su5BsXu60QOsVXP6qvcf9/dIIpAIEDMJAAmTCABWLwvbn8PJNDZSWVZdBz0Q9GwdCJSZKKYMIBBFDEAUAYHVmCgAgWdqQFC9HRRT870rX9D+BIUYCApR/qg/iaFnoOhm8Y3yG4g5euQwnQTHJ+WX/fDDc46Wl5TZkkWRSJcdCqGITdnq2Z7dotAd/uAwAMCyqW3Ntm2zs/H/L8ELEf1X27YNY06ph2w3x/NyOs+kQalkYn3YTfajlUCASJo/jZu1TqUYyEGywbnfbQ/6dUWCqLfZpFxqNKqOBXG9hd9vDXvNiw652t/P+/16PjVUDBP8gyoYFvyPWinkcxihMEVzIpL8uCfisShS5PcH"
-                             alt="en_US"
-                             title="English">
-                    </span>
-                </a>
                 <?php
-                /*wp_nav_menu( array(
-                    'theme_location' => 'lang_menu') );*/
+                wp_nav_menu( array(
+                    'theme_location' => 'lang_menu') );
                 ?>
             </div>
         </div>

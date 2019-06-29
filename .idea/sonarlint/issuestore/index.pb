@@ -41,3 +41,8 @@ M
 template-parts/vi/top-bar.php,c\e\ce0817240f7279806c53147bf1f0869462c537e2
 L
 template-parts/vi/footer.php,0\f\0f0ee74eaf898df054e3e206db414350b300afa5
+c
+3template-parts/fragments/product/product-detail.php,5\3\535489ac7f32aa9d19ceeb8078f1519d13100c80
+:
+
+single.php,3\e\3e17348c4a550e3c87772af405a66a8031e1f3c2

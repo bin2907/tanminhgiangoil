@@ -8,7 +8,20 @@
 get_header();
 
 $categories = get_the_category();
-$cat_name = $categories[0]->cat_name;
+$cat_links = "";
+foreach ($categories as $cat) {
+    $cat_links = empty($cat_links)? "" : ($cat_links . ", ");
+    $cat_links = $cat_links . "<a href='" . get_category_link($cat->cat_ID) . "'>". $cat->cat_name . "</a>";
+}
+
+
+$langFolder = "template-parts/fragments/product/product";
+$homeText = "Tan Minh Giang Oil";
+if (get_locale() == "vi") {
+    $langFolder = "template-parts/vi/fragments/product/product";
+    $homeText = "Tân Minh Giang Oil";
+}
+
 
 ?>
 
@@ -16,7 +29,8 @@ $cat_name = $categories[0]->cat_name;
     <div class="container">
         <div class="row">
             <div class="col-md-10">
-                <a href="<?php echo get_home_url(); ?>">Tân Minh Giang Oil</a> &gt;  <?php echo $cat_name; ?>
+                <a href="<?php echo get_home_url(); ?>"><?php echo $homeText; ?></a> &gt;
+                <?php echo $cat_links ?>
             </div>
             <div class="col-md-2 text-right">
                 <i class="shareSocialIcon fab fa-facebook"></i>
@@ -27,13 +41,15 @@ $cat_name = $categories[0]->cat_name;
 </div>
 
 <?php while ( have_posts() ) : the_post();
-    get_template_part( 'template-parts/content/content', 'single' );
+    get_template_part( $langFolder , 'detail' );
 endwhile; ?>
 
-<?php get_template_part( 'template-parts/fragments/product/product', 'related'); ?>
+<?php get_template_part( $langFolder, 'related'); ?>
 
-<?php get_template_part( 'template-parts/fragments/product/product', 'category-menu-mobile'); ?>
+<?php get_template_part( $langFolder, 'category-menu-mobile'); ?>
 
 <?php
 get_footer();
+
+
 ?>

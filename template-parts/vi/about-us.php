@@ -16,7 +16,7 @@ get_header();
         About us
     </h1>
     <div class="text-center">
-        <a style="color: #f9520b" href="#">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;About us
+        <a style="color: #f9520b" href="#">Trang chủ</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Giới thiệu
     </div>
 </div>
 
@@ -28,29 +28,29 @@ get_header();
             </div>
             <div class="col-md-8">
                 <div style="margin-top: 5rem">
-                    <h2><span style="color: #75c6e6;">The leading</span> automotive equipment supplier in Vietnam </h2>
+                    <h3>Nhà cung cấp thiết bị và dịch vụ <span style="color: #75c6e6;">hàng đầu Việt Nam.</span></h3>
                     <div style="border-left: 3px solid #f9520b; margin: 1rem 0 1rem 1rem; padding-left: 1rem; color: #f9520b; font-style: italic;">
-                        All for Customers – Customers give all
+                        Tất cả vì khách hàng - Khách hàng cho tất cả
                     </div>
                     <p>
-                        Located in Tan Binh District, one of the most developed district in Ho Chi Minh City. The position
-                        is very convenient with the area of Tan Minh Giang is about 10000 m2.
+                        Công ty cổ phần dịch vụ dầu nhớt Tân Minh Giang là một thành viên trực thuộc công ty Cổ phần Thiết bị <a href="tanminhgiang.com" target="_blank" class="highlightColor">Tân Minh Giang</a>.
+                    </p>
+                    <p>
+                        Tọa lạc tại số 20 đường Cộng Hòa, gần sân bay Quốc tế Tân Sơn Nhất Tp Hồ Chí Minh, trung tâm thương mại và Công nghiệp lớn nhất Việt Nam, với diện tích khuôn viên 10.000 m2, bao gồm: Khu trụ sở làm việc (1.000 m2), showroom (1.000 m2), nhà kho (2.000 m2), nhà chuyên giao công nghệ, xưởng sản xuất, khu căn tin giải trí.
+
                     </p>
                     <p class="secondTextColor">
-                        With the about 100 employees, almost are automobile and electrical engineer, we can guarantee about
-                        the quality and the rate of progress on time.
+                        Trải qua hành trình hơn 15 năm xây dựng và phát triển. Công ty Cổ phần Thiết bị Tân Minh Giang là một trong những Công ty hàng đầu Việt Nam, chuyên cung cấp dịch vụ thương mại và kỹ thuật, thực hiện trọn gói, các gói thầu EPC (Tư vấn, Thiết kế - Cung cấp thiết bị - Lắp đặt - Vận hành chuyển giao công nghệ - Bảo hành bảo trì), là Nhà Phân Phối Chiến Lược của <b>Công ty TNHH TOTAL</b> chuyên các sản phẩm dầu nhờn động cơ (AO) và dầu nhờn Công nghiệp (IO)
                     </p>
                     <p class="secondTextColor">
-                        Tan Minh Giang equipment J.S.C is one of the leading companies in Viet Nam, specializes in providing
-                        commercial service, the distributor of automobile equipment, technical implementation, service at
-                        the request of each work customers from consultancy, design, equipment supply, technology transfer
-                        to warranty service
+                        Hiện nay trong khu vực, chúng tôi hoạt động ở hơn 20 quốc gia với đội ngũ nhân viên trên 3.000 người thuộc 50 Công ty trực thuộc.
+                        Mục tiêu của chúng tôi là trở thành công ty hàng đầu ở khu vực Châu Á - Thái Bình Dương về tăng trưởng, lợi nhuận cũng như là mẫu mực trong việc vận hành theo các chuẩn mực quốc tế cao nhất.
                     </p>
                 </div>
 
                 <div style="margin-bottom: 5rem">
-                    <a href="<?php echo get_home_url(); ?>/products" class="forthBtn" style="margin-top: 3rem">GET QUOTE</a>
-                    <a href="<?php echo get_home_url(); ?>/products" class="forthBtn"  style="margin-top: 3rem">VIEW PRODUCTS</a>
+                    <a href="<?php echo get_home_url(); ?>/products" class="forthBtn" style="margin-top: 3rem">DỊCH VỤ</a>
+                    <a href="<?php echo get_home_url(); ?>/products" class="forthBtn"  style="margin-top: 3rem">SẢN PHẨM</a>
                 </div>
             </div>
         </div>
@@ -58,8 +58,9 @@ get_header();
 </div>
 
 <div class="container-fluid" style="color: #fff; background-image: url('<?php echo get_template_directory_uri(); ?>/img/misc/iso.jpg'); background-size: cover;">
-    <h2 style="padding: 4rem 0" class="text-center">The International Organization for Standardization ISO 9001:2015</h2>
     <div class="container">
+        <h2 style="padding-top: 4rem" class="text-center">Hệ thống quản lý ISO</h2>
+        <p style="padding-bottom: 4rem" class="text-center">Hệ thống quản lý chất lượng theo tiêu chuẩn quốc tế ISO 9001:2015 và hệ thống quản lý môi trường theo tiêu chuẩn quốc tế ISO 14001:2015 do tổ chức TQCSI cấp chứng nhận.</p>
         <div class="row">
             <div class="col-md-6 text-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/misc/iso-1.jpg" style="border: 1px solid #f9520b; box-shadow: 0 0 15px 0 #f9520b; margin-bottom: 4rem">
