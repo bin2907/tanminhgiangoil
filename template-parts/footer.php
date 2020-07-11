@@ -1,3 +1,12 @@
+<?php
+/**
+ * Template part for displaying footer.
+ *
+ * User: Binh Nguyen
+ * Date: 4/14/2019
+ * Time: 12:19 PM
+ */
+?>
 <div class="container-fluid footer">
     <div class="container footerTop">
         <div class="row">

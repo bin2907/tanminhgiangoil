@@ -1,16 +1,12 @@
 <?php
 /**
- * Template Name: Image slide
+ * Template part for displaying image slide.
  *
  * User: Binh Nguyen
  * Date: 4/14/2019
  * Time: 12:19 PM
  */
-
-get_header();
-
 ?>
-
 <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->

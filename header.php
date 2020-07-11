@@ -21,7 +21,7 @@
 
 <?php
 	wp_head();
-	$slug = $post->post_name;
+	$slug = $post->post_name; // In used other files.
 ?>
 </head>
 

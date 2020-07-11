@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Navigation
+ * Template part for displaying navigation.
  *
  * User: Binh Nguyen
  * Date: 4/14/2019
@@ -8,9 +8,7 @@
  */
 
 get_header();
-
 ?>
-
 <nav class="navbar sticky-top navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
