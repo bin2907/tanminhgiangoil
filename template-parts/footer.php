@@ -12,8 +12,8 @@
         <div class="row">
             <div class=" col-md-3 pdtb30">
                 <a class="block" href="<?php echo get_home_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/tan-minh-giang-oil-logo-2.jpg"
-                         width="150px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/tan-minh-giang-oil-logo-2.png"
+                         width="150px" class="imgbackground">
                 </a>
                 <a class="block pdt30" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=43403" rel="nofollow"
                    target="_blank" title="Tân Minh Giang Oil đã thông báo với Bộ Công Thương">
@@ -21,22 +21,17 @@
                          src="http://online.gov.vn/PublicImages/2015/08/27/11/20150827110756-dathongbao.png" style="height:75px">
                 </a>
             </div>
-            <div class="col-md-3 pdtb30">
+            <div class="col-md-2 pdtb30">
                 <h4 class="footerHeader">SITE MAPS</h4>
-                <ul class="footerListItem">
-                    <li>
-                        <a href="<?php echo get_home_url(); ?>/about-us" class="footerLink">About us</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo get_home_url(); ?>/service" class="footerLink">Services</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo get_home_url(); ?>/cars" class="footerLink">Products</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo get_home_url(); ?>/contact-us" class="footerLink">Contact us</a>
-                    </li>
-                </ul>
+               
+                    <?php wp_nav_menu( 
+        array( 
+              'theme_location' => 'primary-menu', 
+              'container' => 'true', 
+              'menu_id' => 'primary-menu-footer', 
+              'menu_class' => 'footerListItem'
+            ) 
+            ); ?>
             </div>
             <div class="col-md-2 pdtb30">
                 <h4 class="footerHeader">PRODUCTS</h4>
@@ -49,7 +44,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4 pdtb30">
+            <div class="col-md-5 pdtb30">
                 <h4 class="footerHeader">GET IN TOUCH</h4>
                 <b>
                     TAN MINH GIANG LUBRICANT SERVICE JSC

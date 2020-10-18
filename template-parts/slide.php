@@ -37,7 +37,7 @@
             <!--Mask color-->
             <div class="view">
                 <img class="d-none d-sm-block d-md-block d-lg-block w-100"
-                     src=<?php echo get_template_directory_uri(); ?>/img/slide/tan-minh-giang-oil-slide-2.jpg"
+                     src="<?php echo get_template_directory_uri(); ?>/img/slide/tan-minh-giang-oil-slide-2.jpg"
                      alt="Tân Minh Giang Oil">
                 <img class="d-block d-sm-none w-100"
                      src="<?php echo get_template_directory_uri(); ?>/img/slide/tan-minh-giang-oil-slide-2-m.jpg"

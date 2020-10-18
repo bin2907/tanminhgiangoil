@@ -99,6 +99,7 @@ a:hover {
     font-size: 0.8rem;
     font-weight: 700;
     color: #18152c;
+
     border-bottom: 2px solid #fff;
     transition: 0.4s;
 }
@@ -107,7 +108,92 @@ a:hover {
     color: #f9520b;
     border-bottom: 2px solid #f9520b;
 }
+.site-logo img
+{
+    width: auto;
+    height: 75px;
+}
+/*Primary-menu*/
+#primary-menu .menu-item {
+    padding: 0;
+    margin: .8rem 1rem;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #18152c;
+    border-bottom: 2px solid #fff;
+    transition: .4s;
+    text-transform: uppercase;
+}
+#primary-menu-vi .menu-item {
+    padding: 0;
+    margin: .8rem 1rem;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #18152c;
+    border-bottom: 2px solid #fff;
+    transition: .4s;
+    text-transform: uppercase;
+}
+/*end primary-menu*/
 
+/*Right Menu vi*/
+.product-category .menu-item a
+{
+    background-color: #f1f1f1;
+    border-left: 4px solid #d2d2d2;
+    border-bottom: 1px solid #fff;
+    padding: 14px 15px 14px 25px;
+    font-size: 17px;
+    display:block;
+    font-weight: 600;
+}
+ #right-menu-vi .menu-item :hover{
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+     display:block;
+    color: #fff;
+}
+ #right-menu .menu-item :hover{
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    display:block;
+    color: #fff;
+}
+#right-menu-vi .menu-item a:hover{
+
+    color: #fff;
+}
+ #right-menu .menu-item a:hover{
+    color: #fff;
+}
+li#menu-item-595 a {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li#menu-item-596 a {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li#menu-item-602 a{
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li#menu-item-603 a {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+
+/*End right menu*/
 /* 5. Breadcrumbs */
 .breadcrumbs {
     padding: 20px 0;
@@ -125,7 +211,7 @@ a:hover {
 
 }
 
-.product-category a.nav-link {
+/* .product-category a.nav-link {
     background-color: #f1f1f1;
     border-left: 4px solid #d2d2d2;
     border-bottom: 1px solid #ffffff;
@@ -139,7 +225,7 @@ a:hover {
     border-left-color: #04192b;
     transition: 0.3s;
     color: #fff;
-}
+} */
 
 /* 7. Footer */
 .footer {
@@ -158,6 +244,14 @@ a:hover {
 }
 .footerListItem {
     list-style-type: circle;
+}
+.footerListItem  a
+{
+    color: #c8c8c8;
+}
+.footerListItem  a:hover
+{
+    color: #f9520b;
 }
 .footerSeparation {
     border-top: 1px solid #0a253d;
@@ -189,6 +283,10 @@ a:hover {
     height: 100%;
     box-shadow: 0 0 15px 0 #f7f7f7;
 
+}
+/*Background Image logo footer*/
+.imgbackground {
+    background: #fbfdff;
 }
 
 .postItemTitle {
@@ -411,4 +509,12 @@ a:hover {
 }
 .contactUsLinkTop {
     border-top: 1px solid #e5e5e5;
+}
+/*Search*/
+.search-field
+{
+    outline:none;
+}
+form#searchform {
+    margin-bottom: 10px;
 }
