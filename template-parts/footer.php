@@ -12,7 +12,7 @@
         <div class="row">
             <div class=" col-md-3 pdtb30">
                 <a class="block" href="<?php echo get_home_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/tan-minh-giang-oil-logo-2.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/tan-minh-giang-oil-logo-2.jpg"
                          width="150px" class="imgbackground">
                 </a>
                 <a class="block pdt30" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=43403" rel="nofollow"
