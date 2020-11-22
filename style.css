@@ -168,26 +168,50 @@ a:hover {
  #right-menu .menu-item a:hover{
     color: #fff;
 }
-li#menu-item-595 a {
+li#menu-item-893 a {
     background-color: #f9520b;
     border-left-color: #04192b;
     transition: .3s;
     color: #fff;
 }
-li#menu-item-596 a {
+li#menu-item-732 a {
     background-color: #f9520b;
     border-left-color: #04192b;
     transition: .3s;
     color: #fff;
 }
-li#menu-item-602 a{
+li#menu-item-900 a{
     background-color: #f9520b;
     border-left-color: #04192b;
     transition: .3s;
     color: #fff;
 }
-li#menu-item-603 a {
+li#menu-item-739 a {
     background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.menu-item-900 a {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.current-menu-item.menu-item-739 a {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-893 a {
+    background-color: #f9520b;
+    border-left-color: #04192b;
+    transition: .3s;
+    color: #fff;
+}
+li.menu-item.menu-item-732 a {
+	background-color: #f9520b;
     border-left-color: #04192b;
     transition: .3s;
     color: #fff;
