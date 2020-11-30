@@ -1,6 +1,14 @@
 <?php
 add_theme_support( 'post-thumbnails' );
-
+add_filter( 'wp_title', 'wp_title_home' );
+ 
+function wp_title_home( $title )
+{
+  if ( empty( $title ) && ( is_home() || is_front_page() ) ) {
+    $title = get_bloginfo('title') . ' | ' . get_bloginfo( 'description' );
+  }
+  return $title;
+}
 function register_lang_menu() {
     register_nav_menu('lang_menu',__( 'Lang Menu' ));
 }
